@@ -3,33 +3,44 @@ canvas: "https://media.nga.gov/public/manifests/canvas/106382.json"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test write",
-            "purpose": "commenting",
+            "created": "2023-08-17T18:19:39.677Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-08-17T18:19:39.677Z",
-            "modified": "2023-08-17T18:19:41.115Z"
+            "modified": "2023-08-17T18:19:41.115Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test write"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test write for this user",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatetester",
+                "name": "annonatatetester"
+            },
+            "created": "2023-08-17T18:20:51.074Z",
+            "modified": "2023-08-17T18:20:55.069Z"
         }
     ],
+    "id": "8c3bf41b-d73a-4671-8ad4-347ffd667642.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://media.nga.gov/public/manifests/canvas/106382.json",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4656.02880859375,4668.126953125,5020.43896484375,4227.73828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4656.02880859375,4668.126953125,5020.43896484375,4227.73828125"
+        },
+        "source": "https://media.nga.gov/public/manifests/canvas/106382.json"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8c3bf41b-d73a-4671-8ad4-347ffd667642.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
