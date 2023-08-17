@@ -1,0 +1,35 @@
+---
+canvas: "https://media.nga.gov/public/manifests/canvas/106382.json"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test write",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-08-17T18:19:39.677Z",
+            "modified": "2023-08-17T18:19:41.115Z"
+        }
+    ],
+    "target": {
+        "source": "https://media.nga.gov/public/manifests/canvas/106382.json",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4656.02880859375,4668.126953125,5020.43896484375,4227.73828125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://media.nga.gov/public/manifests/nga_highlights.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8c3bf41b-d73a-4671-8ad4-347ffd667642.json",
+    "motivation": "commenting"
+}
