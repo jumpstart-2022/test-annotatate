@@ -5,9 +5,8 @@ images:
   title: Aerial view of Carter Stadium on dedication day
   url: https://d.lib.ncsu.edu/collections/catalog/0000005/manifest.json
   user: dnoneill
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
   widgets: comment-with-purpose, tag, geotagging
-version: '1.0'
+version: '2.0'
