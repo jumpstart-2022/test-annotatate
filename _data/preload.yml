@@ -1,18 +1,4 @@
 images:
-- added: '2023-08-21 13:38:40.156434'
-  iiif: true
-  thumbnail: https://iiif.lib.ncsu.edu/iiif/0000005/full/150,/0/default.jpg
-  title: Aerial view of Carter Stadium on dedication day
-  url: https://d.lib.ncsu.edu/collections/catalog/0000005/manifest.json
-  user: dnoneill
-- added: '2023-08-21 13:37:25.789575'
-  iiif: true
-  thumbnail: https://iiif.lib.ncsu.edu/iiif/0002030/full/150,/0/default.jpg
-  title: Administrators with Centennial Campus model
-  url: https://d.lib.ncsu.edu/collections/catalog/0002030/manifest.json
-  user: dnoneill
-- null
-manifests: []
 settings:
   tempuser: notenabled
   viewer: default
