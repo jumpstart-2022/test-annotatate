@@ -1,11 +1,5 @@
 images:
-- added: '2023-08-21 13:43:54.680376'
-  iiif: true
-  thumbnail: https://iiif.lib.ncsu.edu/iiif/0000005/full/150,/0/default.jpg
-  title: Aerial view of Carter Stadium on dedication day
-  url: https://d.lib.ncsu.edu/collections/catalog/0000005/manifest.json
-  user: dnoneill
-- null
+-
 manifests: []
 settings:
   tempuser: notenabled
