@@ -1,0 +1,102 @@
+---
+added: '2023-08-23 19:39:57.806469'
+thumbnail: https://iiif.lib.ncsu.edu/iiif/0002030/full/150,/0/default.jpg
+title: Administrators with Centennial Campus model
+user: dnoneill
+
+---
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@id": "https://jumpstart-2022.github.io/test-annotatate/manifests/catalog/0002030/manifest.json",
+  "@type": "sc:Manifest",
+  "label": "Administrators with Centennial Campus model",
+  "description": "Back of photograph:  \"News Services January 1991 / Centennial Campus Model / Dr. Jerry L. Whitten / Claude E. McKinney / Dr. Ralph K. Calvin III / Chancellor Larry K. Monteith\"  Centennial Campus, named in honor of the school's centennial in 1987, was originally composed of 355 acres south across Western Boulevard that Governor James B. Hunt offered to the University in 1984.  The campus has continued to expand to its present 1,000 acres and 25 buildings over the past two decades.  According to its website (http://centennial.ncsu.edu/overview/index.html), \"Centennial Campus is North Carolina State University's vision of the future. This \"technopolis\" consists of multi-disciplinary R&D neighborhoods, with university, corporate, and government facilities intertwined. A middle school, residential housing, executive conference center and hotel, golf course, town center and recreational amenities will weave the campus into a true interactive community.\"",
+  "related": {
+    "@id": "https://d.lib.ncsu.edu/collections/catalog/0002030",
+    "format": "text/html",
+    "label": "HTML page for the resource",
+    "dcterms:modified": "2022-10-24T14:45:29.654Z"
+  },
+  "logo": {
+    "@id": "https://d.lib.ncsu.edu/collections/assets/ncsu-libraries-white-logo-placement-fa371d02703e250a7573c9ff7efda2be0f0ab068729c9d69c4fed1c532dda73b.jpg"
+  },
+  "attribution": "University Archives Photograph Collection. Campus facilities and views (UA023.005), Special Collections Research Center at NC State University Libraries",
+  "license": [
+    "https://d.lib.ncsu.edu/collections/about#rights_and_use"
+  ],
+  "metadata": [
+    {
+      "label": "title",
+      "value": "Administrators with Centennial Campus model"
+    },
+    {
+      "label": "Created Date",
+      "value": "1991-01"
+    },
+    {
+      "label": "URL",
+      "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog/0002030\">https://d.lib.ncsu.edu/collections/catalog/0002030</a></span>"
+    },
+    {
+      "label": "",
+      "value": "<span><a href=\"https://d.lib.ncsu.edu/collections/catalog/0002030?manifest=https%3A%2F%2Fd.lib.ncsu.edu%2Fcollections%2Fcatalog%2F0002030%2Fmanifest.json\">IIIF drag &amp; drop</a> (<a href=\"https://d.lib.ncsu.edu/collections/about-iiif\">About IIIF</a>)</span>"
+    }
+  ],
+  "thumbnail": {
+    "@id": "https://iiif.lib.ncsu.edu/iiif/0002030/full/150,/0/default.jpg",
+    "service": {
+      "@context": "http://iiif.io/api/image/2/context.json",
+      "@id": "https://iiif.lib.ncsu.edu/iiif/0002030",
+      "profile": "http://iiif.io/api/image/2/level2.json"
+    }
+  },
+  "sequences": [
+    {
+      "canvases": [
+        {
+          "@type": "sc:Canvas",
+          "@id": "https://d.lib.ncsu.edu/collections/canvas/0002030",
+          "width": 4476,
+          "height": 5670,
+          "label": "[1]",
+          "images": [
+            {
+              "@id": "https://d.lib.ncsu.edu/collections/canvas/0002030/image",
+              "@type": "oa:Annotation",
+              "on": "https://d.lib.ncsu.edu/collections/canvas/0002030",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif.lib.ncsu.edu/iiif/0002030/full/1170,/0/default.jpg",
+                "width": 4476,
+                "height": 5670,
+                "service": {
+                  "profile": "http://iiif.io/api/image/2/level2.json",
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif.lib.ncsu.edu/iiif/0002030"
+                },
+                "@type": "dctypes:Image"
+              }
+            }
+          ]
+        }
+      ],
+      "@type": "sc:Sequence",
+      "viewingHint": "non-paged"
+    }
+  ],
+  "seeAlso": [
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/oai?identifier=ncsul%2F0002030&metadataPrefix=oai_dc&verb=GetRecord",
+      "format": "text/xml",
+      "label": "Dublin Core XML via OAI-PMH"
+    },
+    {
+      "@id": "https://d.lib.ncsu.edu/collections/catalog/0002030/schemaorg.json",
+      "format": "application/ld+json",
+      "profile": "https://schema.org",
+      "label": "Schema.org metadata as JSON-LD"
+    }
+  ],
+  "dcterms:modified": "2022-10-24T14:45:28.000Z",
+  "dcterms:created": "2007-12-19T13:43:30.000Z"
+}
