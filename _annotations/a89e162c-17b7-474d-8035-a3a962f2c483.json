@@ -3,21 +3,39 @@ canvas: "{'partOf': {'id': 'https://jumpstart-2022.github.io/test-annotatate/img
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing",
-            "purpose": "commenting",
+            "created": "2023-09-14T16:14:32.194Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-09-14T16:14:32.194Z",
-            "modified": "2023-09-14T16:14:33.524Z"
+            "modified": "2023-09-14T16:14:33.524Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing"
+        },
+        {
+            "type": "TextualBody",
+            "value": "test reply",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatetester",
+                "name": "annonatatetester"
+            },
+            "created": "2023-09-14T16:33:40.816Z",
+            "modified": "2023-09-14T16:33:42.870Z"
         }
     ],
+    "id": "a89e162c-17b7-474d-8035-a3a962f2c483.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2808.903076171875,773.3872680664062,871.134033203125,559.0859985351562"
+        },
         "source": {
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
@@ -25,14 +43,7 @@ order: 1
             },
             "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2808.903076171875,773.3872680664062,871.134033203125,559.0859985351562"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a89e162c-17b7-474d-8035-a3a962f2c483.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
