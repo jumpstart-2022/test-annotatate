@@ -33,8 +33,8 @@ order: 1
     "target": {
         "selector": {
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=2808.903076171875,773.3872680664062,871.134033203125,559.0859985351562"
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2808.903076171875,773.3872680664062 3680.037109375,773.3872680664062 3680.037109375,1332.4732666015625 2808.903076171875,1332.4732666015625\"></polygon></svg>"
         },
         "source": {
             "partOf": {
