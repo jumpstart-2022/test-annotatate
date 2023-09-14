@@ -1,4 +1,5 @@
 images: []
 settings:
   widgets: comment-with-purpose, tag, geotagging
-version: '2.1'
+version:
+- '2.0'
