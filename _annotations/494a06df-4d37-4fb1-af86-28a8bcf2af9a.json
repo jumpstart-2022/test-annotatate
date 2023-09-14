@@ -1,0 +1,38 @@
+---
+canvas: "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "testing",
+            "purpose": "commenting",
+            "creator": {
+                "id": "annonatatetester",
+                "name": "annonatatetester"
+            },
+            "created": "2023-09-14T20:43:42.532Z",
+            "modified": "2023-09-14T20:43:43.177Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1178.47509765625,633.9730834960938,1056.86474609375,836.2853393554688"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "494a06df-4d37-4fb1-af86-28a8bcf2af9a.json",
+    "motivation": "commenting"
+}
