@@ -1,0 +1,31 @@
+---
+canvas: "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3//2"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "test",
+            "purpose": "commenting",
+            "creator": {
+                "id": "dnoneill",
+                "name": "dnoneill"
+            },
+            "created": "2023-09-14T15:49:12.865Z",
+            "modified": "2023-09-14T15:49:13.373Z"
+        }
+    ],
+    "target": {
+        "source": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3//2",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2187.407470703125,1099.9691162109375,1673.357177734375,842.529541015625"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2083b583-8266-483b-827a-d63d6444edd1.json",
+    "motivation": "commenting"
+}
