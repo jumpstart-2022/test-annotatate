@@ -3,36 +3,36 @@ canvas: "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "creation of rectangle",
-            "purpose": "commenting",
+            "created": "2023-09-14T20:22:34.102Z",
             "creator": {
                 "id": "annonatatetester",
                 "name": "annonatatetester"
             },
-            "created": "2023-09-14T20:22:34.102Z",
-            "modified": "2023-09-14T20:22:40.255Z"
+            "modified": "2023-09-14T20:25:17.400Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "editing annotation and clicking \"convert to polygon\" button\nwill save the edited annotation and convert the annotation to a polygon. This button will not show up immediately after saving, like the delete button it requires the annotation to finish saving before allowing deleting/conversion."
         }
     ],
+    "id": "559c6e73-8ae4-431b-96b9-d91f186e71a7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4159.60009765625,693.7925415039062 4768.088623046875,693.7925415039062 5376.5771484375,693.7925415039062 5376.5771484375,1083.4555358886719 5376.5771484375,1473.1185302734375 4768.088623046875,1473.1185302734375 4159.60009765625,1473.1185302734375 4159.60009765625,1083.4555358886719\"></polygon></svg>"
+        },
         "source": {
+            "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4159.60009765625,693.7925415039062,1216.97705078125,779.3259887695312"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "559c6e73-8ae4-431b-96b9-d91f186e71a7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
