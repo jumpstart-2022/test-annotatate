@@ -3,21 +3,28 @@ canvas: "{'partOf': {'id': 'https://jumpstart-2022.github.io/test-annotatate/img
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "testing...",
-            "purpose": "commenting",
+            "created": "2023-09-14T18:15:11.103Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-09-14T18:15:11.103Z",
-            "modified": "2023-09-14T18:15:12.276Z"
+            "modified": "2023-09-14T18:15:12.276Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "testing..."
         }
     ],
+    "id": "6370b0bc-01d5-45b6-b521-b2bd170e8127.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4258.62548828125,339.3521728515625 4943.180908203125,339.3521728515625 5627.736328125,339.3521728515625 4943.180908203125,339.3521728515625 5627.736328125,1029.75830078125 4943.180908203125,684.5552368164062 4258.62548828125,1029.75830078125 4258.62548828125,684.5552368164062\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
@@ -25,14 +32,7 @@ order: 1
             },
             "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4258.62548828125,339.3521728515625,1369.11083984375,690.4061279296875"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6370b0bc-01d5-45b6-b521-b2bd170e8127.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
