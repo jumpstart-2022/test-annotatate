@@ -17,15 +17,15 @@ order: 1
             "value": "testing"
         },
         {
-            "type": "TextualBody",
-            "value": "test reply",
-            "purpose": "commenting",
+            "created": "2023-09-14T16:33:40.816Z",
             "creator": {
                 "id": "annonatatetester",
                 "name": "annonatatetester"
             },
-            "created": "2023-09-14T16:33:40.816Z",
-            "modified": "2023-09-14T16:33:42.870Z"
+            "modified": "2023-09-14T16:33:42.870Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test reply"
         }
     ],
     "id": "a89e162c-17b7-474d-8035-a3a962f2c483.json",
