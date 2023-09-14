@@ -3,36 +3,36 @@ canvas: "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "create rectangle",
-            "purpose": "commenting",
+            "created": "2023-09-14T18:50:00.407Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-09-14T18:50:00.407Z",
-            "modified": "2023-09-14T18:50:03.223Z"
+            "modified": "2023-09-14T18:50:03.223Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "create rectangle"
         }
     ],
+    "id": "978af719-11f2-44a7-b1f7-a9dce5a8fae7.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3182.06005859375,3077.5732421875 3954.37890625,3077.5732421875 4726.69775390625,3077.5732421875 4726.69775390625,3563.1978759765625 4726.69775390625,4048.822509765625 3954.37890625,4048.822509765625 3182.06005859375,4048.822509765625 3182.06005859375,3563.1978759765625\"></polygon></svg>"
+        },
         "source": {
+            "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3182.06005859375,3077.5732421875,1544.6376953125,971.249267578125"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "978af719-11f2-44a7-b1f7-a9dce5a8fae7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
