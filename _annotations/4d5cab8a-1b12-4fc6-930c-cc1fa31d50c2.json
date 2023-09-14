@@ -3,21 +3,27 @@ canvas: "{'partOf': {'id': 'https://jumpstart-2022.github.io/test-annotatate/img
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "test",
-            "purpose": "commenting",
+            "created": "2023-09-14T15:51:51.233Z",
             "creator": {
                 "id": "dnoneill",
                 "name": "dnoneill"
             },
-            "created": "2023-09-14T15:51:51.233Z",
-            "modified": "2023-09-14T15:51:52.408Z"
+            "modified": "2023-09-14T15:51:52.408Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "test"
         }
     ],
+    "id": "4d5cab8a-1b12-4fc6-930c-cc1fa31d50c2.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4293.7314453125,1369.1104736328125 6037.29931640625,2691.413818359375 4282.029296875,3065.871337890625\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
@@ -25,13 +31,7 @@ order: 1
             },
             "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4293.7314453125,1369.1104736328125 6037.29931640625,2691.413818359375 4282.029296875,3065.871337890625\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4d5cab8a-1b12-4fc6-930c-cc1fa31d50c2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
