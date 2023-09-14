@@ -15,27 +15,11 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "testing"
-        },
-        {
-            "created": "2023-09-14T16:33:40.816Z",
-            "creator": {
-                "id": "annonatatetester",
-                "name": "annonatatetester"
-            },
-            "modified": "2023-09-14T16:33:42.870Z",
-            "purpose": "commenting",
-            "type": "TextualBody",
-            "value": "test reply"
         }
     ],
     "id": "a89e162c-17b7-474d-8035-a3a962f2c483.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2808.903076171875,773.3872680664062 3680.037109375,773.3872680664062 3680.037109375,1332.4732666015625 2808.903076171875,1332.4732666015625\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/manifest.json",
@@ -43,6 +27,11 @@ order: 1
             },
             "id": "https://jumpstart-2022.github.io/test-annotatate/img/derivatives/iiif/3/canvas/3-1",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2808.903076171875,773.3872680664062,1179.641357421875,585.6580200195312"
         }
     },
     "type": "Annotation"
